@@ -3,7 +3,7 @@ import { Accordion } from 'flowbite-react'
 
 const Faq = () => {
   return (
-    <div className='grid md:grid-cols-2 gap-4 text-left p-8'>
+    <div className='grid md:grid-cols-2 gap-4 text-left p-8 rounded-lg shadow'>
       <div className='grid md:grid-cols-3 gap-4'>
         <img src="images/help.png" alt="" />
         <h1 className='col-span-2 font-extrabold mt-8'>Frequently asked Questions</h1>

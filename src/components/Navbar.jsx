@@ -1,8 +1,6 @@
 import React from 'react'
 import { Navbar } from 'flowbite-react'
-import { Button } from 'flowbite-react'
 import { Dropdown } from 'flowbite-react'
-import { DropdownItem } from 'flowbite-react/lib/esm/components/Dropdown/DropdownItem'
 
 const Navbars = () => {
     return (
@@ -10,11 +8,11 @@ const Navbars = () => {
             fluid={true}
             rounded={true}
         >
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="">
                 <img
-                    src="https://flowbite.com/docs/images/logo.svg"
+                    src=""
                     className="mr-3 h-6 sm:h-9"
-                    alt="Flowbite Logo"
+                    // alt="Flowbite Logo"
                 />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
                     Blockroll
@@ -37,7 +35,7 @@ const Navbars = () => {
                         label="Solutions"
                         inline={true}
                     >
-                        <Dropdown.Item>
+                        {/* <Dropdown.Item>
                             Dashboard
                         </Dropdown.Item>
                         <Dropdown.Item>
@@ -48,7 +46,7 @@ const Navbars = () => {
                         </Dropdown.Item>
                         <Dropdown.Item>
                             Sign out
-                        </Dropdown.Item>
+                        </Dropdown.Item> */}
                     </Dropdown>
                 </Navbar.Link>
                 <Navbar.Link href="/navbars">
@@ -65,7 +63,7 @@ const Navbars = () => {
                         label="Resources"
                         inline={true}
                     >
-                        <Dropdown.Item>
+                        {/* <Dropdown.Item>
                             Dashboard
                         </Dropdown.Item>
                         <Dropdown.Item>
@@ -76,7 +74,7 @@ const Navbars = () => {
                         </Dropdown.Item>
                         <Dropdown.Item>
                             Sign out
-                        </Dropdown.Item>
+                        </Dropdown.Item> */}
                     </Dropdown>
                 </Navbar.Link>
             </Navbar.Collapse>

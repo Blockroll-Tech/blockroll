@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbars from './Navbar'
 
 const Header = () => {
   return (
     <section className="bg-white">
+      <Navbars />
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-6 lg:py-12 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <h1 className="text-3xl font-extrabold leading-none sm:text-4xl">The Smartest Payroll

@@ -9,7 +9,6 @@ import Navbars from './components/Navbar'
 function App() {
   return (
     <>
-      <Navbars />
       <Header />
       <Introduction />
       <Card />
