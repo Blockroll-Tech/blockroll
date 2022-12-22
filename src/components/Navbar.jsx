@@ -10,7 +10,7 @@ const Navbars = () => {
         >
             <Navbar.Brand href="">
                 <img
-                    src=""
+                    src="/images/BlockRoll.png"
                     className="mr-3 h-6 sm:h-9"
                     // alt="Flowbite Logo"
                 />
