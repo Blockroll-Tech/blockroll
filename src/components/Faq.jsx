@@ -6,7 +6,7 @@ const Faq = () => {
     <div className='grid md:grid-cols-2 gap-4 text-left mt-12 p-8 rounded-lg shadow'>
       <div className='grid md:grid-cols-3 gap-4'>
         <img src="images/help.png" alt="" />
-        <h1 className='col-span-2 font-extrabold mt-8'>Frequently asked Questions</h1>
+        <h1 className='col-span-2 font-extrabold mt-8'>Frequently Asked Questions</h1>
         <p className='col-span-3 md:-mt-20'>
           What would you like to know about Blockroll? Shoot your questions as we are adding more questions to our FAQ section.
         </p>

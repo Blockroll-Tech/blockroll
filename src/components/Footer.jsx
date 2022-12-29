@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer } from 'flowbite-react'
-import { BsDribbble } from "react-icons/bs";
+import { BsDribbble, BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
@@ -11,7 +11,7 @@ const Footers = () => {
     <Footer container={true} className="!shadow-transparent mt-12">
       <div className="w-full !text-left">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+          {/* <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
               <Footer.Title title="Company" />
               <Footer.LinkGroup col={true}>
@@ -69,70 +69,42 @@ const Footers = () => {
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
-          </div>
+          </div> */}
           <div>
             <Footer.Brand
               // href="https://flowbite.com"
-              src=""
+              src="/images/BlockRoll.png"
               alt="Blockroll"
-            // name="Flowbite"
+              // name="Blockroll"
             />
+            <h5>Blockroll is the smartest and best way to handle your payroll operations.</h5>
             <div className="w-full sm:flex sm:items-center sm:justify-between">
               <div className="!mt-8 flex space-x-6 sm:mt-0 sm:justify-center">
+                <Footer.Icon
+                  href="#"
+                  icon={BsTwitter}
+                  className="bg-[#0029FF]"
+                />
+                <Footer.Icon
+                  href="#"
+                  icon={BsLinkedin}
+                />
                 <Footer.Icon
                   href="#"
                   icon={BsFacebook}
                 />
                 <Footer.Icon
                   href="#"
-                  icon={BsInstagram}
-                />
-                <Footer.Icon
-                  href="#"
-                  icon={BsTwitter}
-                />
-                <Footer.Icon
-                  href="#"
                   icon={BsGithub}
-                />
-                <Footer.Icon
-                  href="#"
-                  icon={BsDribbble}
                 />
               </div>
             </div>
           </div>
         </div>
-        {/* <Footer.Divider />
+        <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright
-            href="#"
-            by="Flowbite™"
-            year={2022}
-          />
-          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon
-              href="#"
-              icon={BsFacebook}
-            />
-            <Footer.Icon
-              href="#"
-              icon={BsInstagram}
-            />
-            <Footer.Icon
-              href="#"
-              icon={BsTwitter}
-            />
-            <Footer.Icon
-              href="#"
-              icon={BsGithub}
-            />
-            <Footer.Icon
-              href="#"
-              icon={BsDribbble}
-            />
-          </div>
-        </div> */}
+          <h5>2023 © Blockroll Technologies, All Rights Reserved.</h5>
+        </div>
       </div>
     </Footer>
   )
