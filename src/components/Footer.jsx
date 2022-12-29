@@ -8,7 +8,7 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footers = () => {
   return (
-    <Footer container={true} className="!shadow-transparent">
+    <Footer container={true} className="!shadow-transparent mt-12">
       <div className="w-full !text-left">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
@@ -74,7 +74,7 @@ const Footers = () => {
             <Footer.Brand
               // href="https://flowbite.com"
               src=""
-              alt="Lorem ipsum dolor sit amet"
+              alt="Blockroll"
             // name="Flowbite"
             />
             <div className="w-full sm:flex sm:items-center sm:justify-between">
