@@ -11,7 +11,7 @@ function App() {
     <div className='font-poppins'>
       <Header />
       <div className='p-3'>
-        <Introduction />
+        {/* <Introduction /> */}
         <Card />
         <Testimonials />
         <Faq />
