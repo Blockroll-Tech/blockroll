@@ -7,6 +7,7 @@ const Navbars = () => {
         <Navbar
             fluid={true}
             rounded={true}
+            className="!pl-6"
         >
             <Navbar.Brand href="">
                 <img
