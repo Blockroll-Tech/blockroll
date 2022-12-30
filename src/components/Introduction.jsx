@@ -3,7 +3,7 @@ import React from 'react'
 const Introduction = () => {
   return (
     <>
-      <div className='grid md:grid-cols-2 md:gap-20 border-solid p-8 bg-white mt-12 px-10 py-10 rounded-lg'>
+      <div className='grid md:grid-cols-2 md:gap-20 border-solid p-8 bg-white mt-8 px-10 py-10 rounded-lg'>
         <div className='text-left'>
           <div className='mt-8 font-bold text-lg pb-[10px]'>How it works</div>
           <div className='text-base font-medium'>

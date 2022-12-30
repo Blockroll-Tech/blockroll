@@ -8,14 +8,16 @@ import Navbars from './components/Navbar'
 
 function App() {
   return (
-    <>
+    <div className='font-poppins'>
       <Header />
-      <Introduction />
-      <Card />
-      <Testimonials />
-      <Faq />
-      <Footers />
-    </>
+      <div className='p-3'>
+        <Introduction />
+        <Card />
+        <Testimonials />
+        <Faq />
+        <Footers />
+      </div>
+    </div>
   )
 }
 
