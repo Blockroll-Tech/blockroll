@@ -1,5 +1,7 @@
 import React from 'react'
 import { BiWorld } from "react-icons/bi"
+import { GoLaw } from "react-icons/go"
+import { FaEdit } from "react-icons/fa"
 import { BsCashStack, BsFillShieldLockFill, BsFillGearFill } from "react-icons/bs"
 
 const Card = () => {
@@ -21,12 +23,12 @@ const Card = () => {
         <p className='text-base font-medium'>Businesses and Teams using Blockroll can earn attractive rewards from staking their idle cash.</p>
       </div>
       <div className='md:text-left order-5 px-10 py-10 rounded-lg bg-white'>
-        <BiWorld className='!h-8 w-8 inline-block' />
-        <h1 className='font-bold text-lg pb-[10px]'>Sign up for free to enjoy</h1>
+        <GoLaw className='!h-8 w-8 inline-block' />
+        <h1 className='font-bold text-lg pb-[10px]'>Compliant</h1>
         <p className='text-base font-medium'>Blockroll ensures you adhere to regulations that govern your business and employees' payroll. </p>
       </div>
       <div className='md:text-left order-7 px-10 py-10 rounded-lg bg-white'>
-        <BiWorld className='!h-8 w-8 inline-block' />
+        <FaEdit className='!h-8 w-8 inline-block' />
         <h1 className='font-bold text-lg pb-[10px]'>Customizable</h1>
         <p className='text-base font-medium'>Easily organize your dashboard to keep track of all activities and connect with supported accounting software.</p>
       </div>
