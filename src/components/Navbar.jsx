@@ -11,8 +11,8 @@ const Navbars = () => {
     const uauth = new UAuth({
         clientID: "22a33254-1de0-4d87-973b-009f2c8c1aca",
         // client id will be your id from unstoppable domain 
-        redirectUri: "http://localhost:3000",
-        // redirectUri: "https://www.blockroll.app/",
+        // redirectUri: "http://localhost:3000",
+        redirectUri: "https://www.blockroll.app/",
         scope: "openid wallet",
     });
 
