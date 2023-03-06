@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@uauth/js": "^2.4.0",
     "flowbite": "^1.5.4",
     "flowbite-react": "^0.3.5",
     "react": "^18.2.0",
