@@ -16,6 +16,22 @@ const Navbars = () => {
         scope: "openid wallet",
     });
 
+    React.useEffect(() => {
+        if(uauth !== undefined && connectedAddress != undefined) {
+            try {
+                uauth.user()
+                .then((user) => {
+                    setConnectedAddress(user.sub)
+                })
+                .catch((e) => {
+                    console.log(e);
+                })
+            } catch (err) {
+                console.log(err);
+            }
+        }
+    })
+
     // Logout
     const logout = async () => {
         await uauth.logout();
