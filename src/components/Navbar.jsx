@@ -72,7 +72,7 @@ const Navbars = () => {
                 {connectedAddress ? (
                     <button
                         onClick={logout}
-                        className="px-[25px] py-[10px] text-white bg-brand1 hover:drop-shadow-md rounded-full flex items-center gap-2"
+                        className="px-[25px] py-[10px] text-white bg-[#0029FF] hover:drop-shadow-md rounded-full flex items-center gap-2"
                     >
                         {connectedAddress.length > 0 &&
                             `${connectedAddress.substring(
